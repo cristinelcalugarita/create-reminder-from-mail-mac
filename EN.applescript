@@ -25,25 +25,26 @@
 
 # Set this according to your email account names and Reminder's lists
 # Depending on your needs multiple accounts can send reminders to one or more reminder lists
-set Work1AccountName to "Work"
-set Work1RemindersList to "Work"
+set Work1AccountName to "Exchange"
+set Work1RemindersList to "Tasks"
 set Work2AccountName to "WorkOther"
 set Work2RemindersList to "Work"
-set Personal1AccountName to "Privat"
-set Personal1RemindersList to "Privat"
+set Personal1AccountName to "Gmail"
+set Personal1RemindersList to "Reminders"
 set Personal2AccountName to "iCloud"
-set Personal2RemindersList to "Privat"
-set Personal3AccountName to "Google"
-set Personal3RemindersList to "Privat"
+set Personal2RemindersList to "Reminders"
+set Personal3AccountName to "Admin4UNIX"
+set Personal3RemindersList to "Reminders"
 set Personal4AccountName to "PrivatOther"
 set Personal4RemindersList to "Privat"
 
 # Set the name of the default reminder list (depends on your OS Language)
-set DefaultReminderList to "Reminders"
+set DefaultReminderList to "Tasks"
 
 # On my machine 5 is the Purple flag, which is the color I would like to use for mails flagged as Reminder
 # choose something between 1 and 6
-set FlagIndex to 5
+# 0 is Red
+set FlagIndex to 0
 
 # Set the default reminder date
 # these are the possible choices: "Tomorrow", "2 Days", "3 Days", "4 Days", "End of Week", "Next Monday", "1 Week", "2 Weeks", "1 Month", "2 Months", "3 Months", "Specify"
@@ -56,7 +57,7 @@ set defaultReminderTime to "9"
 # For 'zero-mail' inbox: if this switch is set 'on' it will move the message automatically to the archive once a reminder has been set,
 # Set to 'off' if you want to keep the message where it is 
 # switch 'auto-achive' "on" or "off"
-set switchArchive to "on"
+set switchArchive to "off"
 
 # Set the archive target mailbox
 set Work1Archive to "Archive"
